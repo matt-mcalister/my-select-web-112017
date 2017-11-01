@@ -5,7 +5,7 @@ def my_select(collection)
  while i < collection.length
    var = yield collection[i]
    if var == true
-     result << array[i]
+     result << collection[i]
    end
    i += 1
  end
